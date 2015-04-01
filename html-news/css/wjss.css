@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+
+.wjss{ margin:30px 12px; margin-bottom:80px; overflow:hidden;}
+.wjss h4{ font-size:24px; color:#24373e; margin-left:18px;}
+.wjss h4 span{ color:#fe7d00;}
+.wjss p{ font-size:16px; color:#24373e; line-height:30px; width:916px; margin-top:5px; margin-left:18px; padding-bottom:25px;}
+.wjss p span{ font-size:18px; color:#fe7d00;}
+.wjss h3{ padding:25px 0 20px 10px; border-top:1px solid #e9e9e9;}

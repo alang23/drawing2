@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+.bg_zpzs{ background:url(../images/bg_zpzs.jpg) no-repeat top center; height:723px;}
+
+.zpzs{ margin-top:36px; margin-left:12px; margin-right:12px;}
+.zpzs h2{ float:left;}
+.zpzs .zpzs_button{ float:right;}
+.zpzs .zpzs_fullimg{ width:654px; margin:20px auto; padding:14px; border:2px solid #91deff; background:url(../images/zpzs_imgbg.jpg); text-align:center;}
+.zpzs h3{ font-size:30px; margin-bottom:10px;}
+.zpzs .zpzs_word{ margin:40px 16px; color:#474747;}
+.zpzs .zpzs_word .zpzs_name{ font-size:14px; font-family:"宋体"; font-weight:bold; margin-bottom:12px;}
+.zpzs .zpzs_word .zpzs_name span{ font-weight:normal; margin-right:20px;}
+.zpzs .zpzs_word .zpzs_miao{ margin-bottom:40px;}
+.zpzs .zpzs_word .zpzs_miao b{ font-size:14px; font-family:"宋体"; font-weight:bold; float:left; line-height:22px; width:75px;}
+.zpzs .zpzs_word .zpzs_miao p{ font-size:14px; font-family:"宋体"; float:left; width:804px; line-height:22px;}
+.zpzs .zpzs_zan{ border-top:1px solid #e9e9e9; padding-top:32px;}
+.zpzs .zpzs_zan p{ width:300px; margin:0 auto;}
+.zpzs .zpzs_zan p a{ display:block; width:140px; height:36px;}
+.zpzs .zpzs_zan p .dianzan{ background:url(../images/zpzs_button2.png) no-repeat 0 -36px; float:left;}
+.zpzs .zpzs_zan p .dianzan:hover{ background:url(../images/zpzs_button2.png) no-repeat 0 0px;}
+.zpzs .zpzs_zan p .jizan{ background:url(../images/zpzs_button2.png) no-repeat 0 -108px; float:right;}
+.zpzs .zpzs_zan p .jizan:hover{ background:url(../images/zpzs_button2.png) no-repeat 0 -72px;}

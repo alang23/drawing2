@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=0.5, minimum-scale=0.5, maximum-scale=0.5, user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-touch-fullscreen" content="no">
+<link href="<?=base_url()?>m/static/css/page.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="<?=base_url()?>m/static/js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="<?=base_url()?>m/static/js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="<?=base_url()?>m/static/js/jquery.reveal.js"></script>
+
+<style> /* Let's get this party started */
+::-webkit-scrollbar { width: 0px;} 
+body{display:-webkit-box;display: box;-webkit-box-orient: vertical;box-orient: vertical;}
+</style>
+<meta name="viewport" content="width=640,target-densitydpi=device-dpi,user-scalable=no" /> 
+<script type="text/javascript">
+  var phoneWidth = parseInt(window.screen.width);
+  var phoneScale = phoneWidth/640;
+  var ua = navigator.userAgent.toLowerCase(); 
+  if (/android (\d+\.\d+)/.test(ua)){
+    var version = parseFloat(RegExp.$1);
+    if(version>2.3){
+      document.write('<meta name="viewport" content="width=640, minimum-scale = '+phoneScale+', maximum-scale = '+phoneScale+', target-densitydpi=device-dpi">');
+    }else{
+      document.write('<meta name="viewport" content="width=640, target-densitydpi=device-dpi">');
+    }
+  }else{
+    document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');
+  }
+</script>
+
+
+<title>安奈儿创意大赛</title>
+</head>
+<body class="loading" onload="showQ();">
+<div id="zhao" style="background:#000;height: 100%;position: fixed;top: 0;width: 100%;z-index:1;text-align: center;color: #FFFFFF;font-size: 20px;padding-top: 400px;font-weight: bold;display:block; z-index:1000;">
+<img style="position: relative;top:0;width:120px;height:120px;" src="<?=base_url()?>m/static/images/load.gif" /></div>
+
+    <div id="loading"></div>
+      
+    <section class="m-page" id="scene">
+                       
+      <div class="m-img" style="background:url(<?=base_url()?>m/static/images/ind_bg.jpg) no-repeat center;height:1008px;">
+				<?php
+					if(empty($userinfo)){
+				?>
+                 <div class="ind_dl"><a href="javascript:void(0);" data-reveal-id="myModal"><img src="<?=base_url()?>m/static/images/ind_dl.png" ></a></div>
+				<?php
+					}else{
+				?>
+                 <div class="ind_login"><a href="<?=base_url()?>index.php?c=user"><?=$userinfo['nickname']?></a> <a href="<?=base_url()?>m/index.php?c=login&m=logout">退出</a></div>
+				<?php
+				}
+				?>
+                 <div class="ind_tt" ><div class="layer" data-depth="1"><img src="<?=base_url()?>m/static/images/ind_tt.png"></div></div>
+			
+				<?php
+					if(empty($userinfo)){
+				?>
+                 <div class="ind_upload"><div class="layer" data-depth="0.2"><a href="javascript:void(0);" data-reveal-id="myModal"><img src="<?=base_url()?>m/static/images/ind_upload.png"></a></div></div>	
+				 				<?php
+					}else{
+				?>
+				 <div class="ind_upload"><div class="layer" data-depth="0.2"><a href="<?=base_url()?>m/index.php?c=upload" ><img src="<?=base_url()?>m/static/images/ind_upload.png"></a></div></div>
+				<?php
+				}
+				?>
+
+                 <div class="ind_btn"><a href="<?=base_url()?>m/index.php?c=jieshao"><img src="<?=base_url()?>m/static/images/ind_btn1.jpg"></a><a href="<?=base_url()?>m/index.php?c=zuopin"><img src="<?=base_url()?>m/static/images/ind_btn2.jpg"></a><a href="<?=base_url()?>m/index.php?c=lottery"><img src="<?=base_url()?>m/static/images/ind_btn3.jpg"></a></div>
+                 
+				         
+          </div>      
+    </section>                    
+            
+     <div id="myModal" class="reveal-modal">
+       <div class="qq"><a href="<?=base_url()?>m/index.php?c=useroauth"><img src="<?=base_url()?>m/static/images/dlts_qq.png"></a></div>
+         <div class="weibo"><a href="<?=base_url()?>m/index.php?c=test"><img src="<?=base_url()?>m/static/images/dlts_weibo.png"></a></div>
+       <a class="close-reveal-modal">×</a> 
+
+    </div>
+<!-- 引入脚本 --> 
+
+
+<script type="text/javascript" >
+    function showQ(){
+      $("#zhao").hide();
+    }
+</script>
+<script>document.body.className = "";</script>
+<script type="text/javascript" src="<?=base_url()?>m/static/js/global.js"></script>
+<script type="text/javascript" src="<?=base_url()?>m/static/js/parallax.js"></script>
+<script>
+  // 视差
+  var scene = document.getElementById('scene');
+  var parallax = new Parallax(scene, {
+    calibrateY: false
+  });
+</script>
+</body>
+</html>

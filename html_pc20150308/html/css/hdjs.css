@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+
+.bg_hdjs{ background:url(../images/bg_hdjs.jpg) no-repeat top center; height:1040px;}
+
+.hdjs{ margin-top:36px; margin-left:12px; margin-right:12px;}
+.hdjs h2{ font-weight:bold;}
+.hdjs .hdjs_up{ margin:0 16px; padding-top:8px; border-bottom:1px solid #e9e9e9; overflow:hidden; padding-bottom:26px;}
+.hdjs .hdjs_up p{ width:630px; float:left; margin-right:10px; font-size:16px; line-height:24px; color:#24373e;}
+.hdjs .hdjs_up p span{ color:#ca2961;}
+.hdjs .hdjsup_button{ display:block; width:177px; height:46px;}
+.hdjs .hdjs_up .hdjsup_button{ background:url(../images/hdjsup_button.png) no-repeat 0 0px; float:left;}
+.hdjs .hdjs_up .hdjsup_button:hover{ background:url(../images/hdjsup_button.png) no-repeat 0 -46px;}
+
+.hdjs .hdjs_zpzt{ padding:28px 16px; border-bottom:1px solid #e9e9e9; overflow:hidden}
+.hdjs .hdjs_zpzt h3{ margin-bottom:6px;}
+.hdjs .hdjs_zpzt p{ color:#24373e;}
+.hdjs .hdjs_zpzt .hdjs_zhuti{ margin:10px 20px 10px 0; float:left;}
+.hdjs .hdjs_zpzt .hdjs_zhuti .zhuti_title{ float:left; vertical-align:bottom; padding-top:14px; margin-right:8px;}
+.hdjs .hdjs_zpzt .hdjs_zhuti .zhuti_title .cn{ font-size:20px; font-weight:bold; color:#282722;}
+.hdjs .hdjs_zpzt .hdjs_zhuti .zhuti_title .en{ font-size:14px; font-family:Arial; color:#999;}
+.hdjs .hdjs_zpzt .hdjs_zhuti .zhuti_title img{ float:left;}
+.hdjs .hdjs_zpzt .hdjs_zhuti p{ width:450px; font-size:16px; line-height:22px;}
+
+.hdjs .hdjs_pxgz{ padding:28px 16px 40px 16px; border-bottom:1px solid #e9e9e9; overflow:hidden; color:#24373e;}
+.hdjs .hdjs_pxgz .pxgz_pxfs{ margin-top:20px; margin-left:44px; overflow:hidden; padding-bottom:10px;}
+.hdjs .hdjs_pxgz .pxgz_pxfs img{ float:left;}
+.hdjs .hdjs_pxgz .pxgz_pxfs .wltp{ float:left; margin-top:40px; margin-left:5px; margin-right:56px;}
+.hdjs .hdjs_pxgz .pxgz_pxfs .wltp h4{ font-size:22px;}
+.hdjs .hdjs_pxgz .pxgz_pxfs .wltp p{ font-size:16px; line-height:24px; margin-top:2px;}
+.hdjs .hdjs_pxgz .pxgz_pxfs .zjps{ float:left; font-size:22px; line-height:30px; margin-top:50px; margin-left:5px;}
+.hdjs .hdjs_pxgz h5{ margin-top:12px;}
+.hdjs .hdjs_pxgz p{ font-size:16px; line-height:24px;}
+
+.hdjs .hdjs_tpgz{ padding:28px 16px 0px 16px; overflow:hidden; color:#24373e;}
+.hdjs .hdjs_tpgz h3{ margin-bottom:20px}
+.hdjs .hdjs_tpgz p{ text-indent:44px; font-size:16px; line-height:24px;}
+.hdjs .hdjs_tpgz .tpgz_date{ background:url(../images/tpgz_No1.jpg) no-repeat; height:44px; line-height:42px; font-size:24px;}
+.hdjs .hdjs_tpgz .tpgz_date span{ color:#fe2a00; padding-left:28px; font-size:20px;}
+.hdjs .hdjs_tpgz .tpgz_cishu{ background:url(../images/tpgz_No2.jpg) no-repeat; height:30px; line-height:30px; margin-top:10px;}
+.hdjs .hdjs_tpgz .shuapiao{ background:url(../images/tpgz_No3.jpg) no-repeat; height:30px; line-height:30px; margin-top:5px;}
+.hdjs .hdjs_tpgz .zzjsq{ margin-top:20px;}

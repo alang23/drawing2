@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+
+.jpsz{ margin:0 10px;}
+.jpsz .jpsz_gjdj h3{ position:relative; left:0; top:34px;}
+.jpsz .jpsz_cszj .jpsz_jxsm{ margin-top:40px; float:left; margin-right:15px;}
+.jpsz .jpsz_cszj .jpsz_jxsm .jxsm_title img{ float:left; margin-left:5px;}
+.jpsz .jpsz_cszj .jpsz_jxsm .jxsm_title h4{ float:left; font-size:24px; color:#108fd2; border-bottom:3px solid #91deff; width:147px; text-align:center; line-height:36px; margin-top:5px; margin-left:6px;} 
+.jpsz .jpsz_cszj .jpsz_jxsm .jxsm_cont{ background:url(../images/jpsz_jpbg.jpg) no-repeat; overflow:hidden; width:475px; height:149px; margin-top:8px;}
+.jpsz .jpsz_cszj .jpsz_jxsm .jxsm_cont img{ float:left; margin-right:0px;}
+.jpsz .jpsz_cszj .jpsz_jxsm .jxsm_cont .jxsm_word{ float:left;}
+.jpsz .jpsz_cszj .jpsz_jxsm .jxsm_cont .jxsm_word .jpsm_name{ display:table-cell; height:149px; vertical-align:middle; font-size:22px; line-height:26px; color:#666; width:310px; text-align:center;}
+.jpsz .jpsz_cszj .jpsz_jxsm .jxsm_cont .jxsm_word .jpsm_jp{ font-size:16px; color:#fe7d00;}
+.jpsz .jpsz_cszj .jpsz_jxsm .jxsm_cont .jxsm_word .jpsm_jpsl{ font-size:20px;}
+.jpsz .jpsz_cszj .jpsz_jxsm .jxsm_cont .jxsm_word .jpsm_jpsl .color{ color:#fe7d00;}
+.jpsz .jpsz_cszj .jpsz_cyj{ margin-top:35px;}
+.jpsz .jpsz_cszj .jpsz_tpzj{ margin-top:35px;}
+.jpsz .jpsz_cszj .jpsz_tpzjsm{ font-size:16px; color:#24373e; margin-top:15px;}
+.jpsz .jpsz_cszj .jpsz_tpzjsm span{ color:#fe7d00;}
+.jpsz .jpsz_cszj .jpsz_zhusi{ font-size:12px; font-family:"宋体"; color:#666666; padding:40px 0; float:right; padding-right:10px;}

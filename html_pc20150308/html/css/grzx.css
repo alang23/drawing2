@@ -1,0 +1,75 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+
+.bg_grzx{  height:383px;}
+
+.grzx{ margin-top:33px; margin-left:12px; width:978px; height:90px;}
+.grzx .head{width:90px; height:90px; float:left; margin-top:0px; margin-left:18px;}
+
+.grzx p.name{width:800px;height:30px; float:left;display:block; margin-left:20px; text-align:left; line-height:30px; font-size:16px; color:#474747; font-weight:bold;}
+.grzx p.xinxi{width:800px;height:30px; float:left; margin-left:20px; padding-left:25px; text-align:left; line-height:30px; font-size:16px; color:#474747; font-weight:bold; background:url(../images/grzx_ico1.jpg) no-repeat left;}
+.grzx a{ text-decoration:underline;line-height:30px; font-size:16px; color:#474747; font-weight:bold;}
+.grzx a:hover{ text-decoration:underline; color:#ff0000;}
+.grzx p.xinxi2{width:286px;height:30px; float:left;display:block; margin-left:20px; text-align:left; line-height:30px; font-size:16px; color:#474747; font-weight:bold;}
+.grzx .btn{width:139px; height:28px; float:left;}
+
+.better .grzx_btn2{ float:right;}
+.better .grzx_btn2 a{ display:block; width:128px; height:39px; margin-right:15px;}
+.better .grzx_btn2 .up{ background:url(../images/grzx_btn2.png) no-repeat 0 -39px; float:left;}
+.better .grzx_btn2 .up:hover{ background:url(../images/grzx_btn2.png) no-repeat 0 0px;}
+
+.better ul li .grzx_btn3 a{ display:block; width:252px; height:39px; margin-top:12px;}
+.better ul li .grzx_btn3 .yaoq{ background:url(../images/grzx_btn3.png) no-repeat 0 -39px; float:left;}
+.better ul li .grzx_btn3 .yaoq:hover{ background:url(../images/grzx_btn3.png) no-repeat 0 0px;}
+
+.better ul li .ztai{ float:left; width:252px; text-align:center;}
+
+.better .wszl{height:32px; line-height:32px; font-size:26px; color:#474747;  padding-left:10px; letter-spacing:2px; margin-bottom:15px;}
+
+.better .grzx_tb{width:500px; margin:0 auto; padding-top:40px;}
+.better .grzx_tb label{display:block;width:100px; height:28px;float:left;text-align:center;clear:left;margin-top:10px;line-height:28px;font-size:14px; font-weight: normal; color:#474747;}
+.better .grzx_tb input {float:left;width:320px;margin-top:10px;line-height:22px;height:28px; padding-left:5px; color:#999; border:1px solid #d1d1d1;}
+.better .grzx_tb input:focus {outline:1px solid #ff8800;}
+
+.better .grzx_tb a{ display:block; width:127px; height:39px; margin-left:100px; margin-top:30px;}
+.better .grzx_tb .qdxx{ background:url(../images/grzx_btn4.png) no-repeat 0 -39px; float:left;}
+.better .grzx_tb .qdxx:hover{ background:url(../images/grzx_btn4.png) no-repeat 0 0px;}
+
+.better .grzx_zjxx{width:928px;height:260px; margin:0 auto; border-top:4px solid #fe7d00; border-bottom:1px solid #eaeaea;border-left:1px solid #eaeaea;border-right:1px solid #eaeaea;margin-top:30px; background:url(../images/grzx_jpbg.jpg) no-repeat right bottom;}
+.better .grzx_zjxx p.bt{width:880px; height:26px; text-align:left; padding-left:30px; margin-top:10px; margin-left:15px; font-size:18px; font-weight:bold; background:url(../images/grzx_ico2.jpg) no-repeat left; line-height:26px;}
+.better .grzx_zjxx ul{width:640px; height:170px; margin-top:20px;}
+.better .grzx_zjxx ul li{width:600px; height:22px; background:url(../images/grzx_listpic.jpg) no-repeat left;text-align:left;font-size:14px; color:#000; padding-left:20px;}
+
+.better .grzx_zjxx p.xz{width:880px; height:26px; text-align:left; margin-top:4px; margin-left:15px; font-size:12px; color:#f47800; line-height:26px;}
+
+.fy{width:500px; height:32px; margin:0 auto; padding-top:50px;}
+.fy .lr{width:72px; height:30px; float:left;font-family:"Microsoft YaHei",'simsun';font-size:12px; font-weight: normal; text-align:center; line-height:32px;color:#fff; margin-left:6px; background-color:#0092d8;}
+.fy .lr a{width:72px; height:30px;color:#333333;text-decoration:none; border:1px solid #dcdcdc;text-align:center; line-height:32px; background-color:#fff; display:block;}
+.fy .lr a:hover{width:72px; height:30px;color:#0092d8;text-decoration:none; border:1px solid #0092d8;}
+.fy .ym{width:30px; height:32px; float:left;  margin-left:6px; text-align:center;color:#fff;font: normal 12px  Arial, Helvetica, sans-serif; line-height:34px; background-color:#64b1d2; float:left;}
+.fy .sl{width:25px; height:32px; float:left;  margin-left:6px; text-align:center;color:#333333;font:bold 12px  Arial, Helvetica, sans-serif; line-height:34px; float:left;}
+.fy .ymx a{width:28px; height:30px; margin-left:6px; text-align:center;color:#fff;font: normal 10px  Arial, Helvetica, sans-serif; line-height:34px;border:1px solid #dcdcdc;color:#333; float:left;}
+.fy .ymx a:hover{color:#0092d8;text-decoration:none; border:1px solid #64b1d2;}
+
+.upload{ margin-top:33px; margin-left:12px;}
+.upload .txxx{height:32px; line-height:32px; font-size:22px; color:#474747;  padding-left:20px; letter-spacing:2px; margin-bottom:15px;}
+.upload .txzl{width:710px; margin:0 auto; padding-top:40px;}
+.upload .txzl label{display:block;width:100px; height:28px;float:left;text-align:center;clear:left;margin-top:10px;line-height:28px;font-size:14px; font-weight: normal; color:#474747;}
+.upload .txzl input {float:left;width:320px;margin-top:10px;line-height:22px;height:28px; padding-left:5px; color:#999; border:1px solid #d1d1d1;}
+.upload .txzl input:focus {outline:1px solid #ff8800;}
+.upload .txzl textarea {float:left;width:320px;margin-top:10px;line-height:22px;height:180px; padding-left:5px; color:#999; border:1px solid #d1d1d1;}
+.upload .txzl textarea:focus {outline:1px solid #ff8800;}
+
+.fileInput{overflow:hidden;position:relative;width:117px;height:30px;}
+.upfile{position: relative;}
+.upFileBtn{opacity:1;filter:alpha(opacity=1);cursor:pointer; z-index:100; position: relative; top:50px; left:10px;}   
+input[type="file"]::-webkit-file-upload-button { position:absolute; right:-100px;}
+
+.upload .txzl .smwz{ font-size:14px; text-align:left; float:left; line-height:40px; color:#999999;}
+.upload .txzl .reset{width:127px; height:39px; float:left; margin-top:22px;}
+
+.upload .txzl .qr{width:172px; height:39px; float:left; margin-left:10px; margin-top:22px;}
+.upload .txzl .qr a{display:block;width:172px; height:39px; background:url(../images/upload_qr.png) no-repeat 0 -39px; float:left;}
+.upload .txzl .qr a:hover{ background:url(../images/upload_qr.png) no-repeat 0 0px;}
+

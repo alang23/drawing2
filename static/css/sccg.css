@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+.bg_sccg{ background:url(../images/bg2.gif) no-repeat top center; height:890px;}
+
+.better .sccg_more{ float:right;}
+
+.sccg{ margin-top:20px; margin-left:12px; margin-right:12px; padding-top:25px;}
+.sccg .sccg_title{ margin-left:215px;}
+.sccg .sccg_title img{ float:left;}
+.sccg .sccg_title .sccg_word{ float:left; margin-top:66px; margin-left:22px;}
+.sccg .sccg_title .sccg_word .gxsccg{ font-size:30px; color:#474747;}
+.sccg .sccg_title .sccg_word .smewm{ font-size:30px; color:#474747; line-height:40px; color:#ff8800; font-weight:bold; margin-bottom:15px;}
+.sccg .sccg_title .sccg_word .smewm span{ font-size:36px;}
+.sccg .sccg_title .sccg_word a{ display:block; width:157px; height:39px;}
+.sccg .sccg_title .sccg_word .sccg_button{ background:url(../images/sccg_button.png) no-repeat 0 0px; float:left;}
+.sccg .sccg_title .sccg_word .sccg_button:hover{ background:url(../images/sccg_button.png) no-repeat 0 -39px;}
+.sccg .sccg_dzjsm{ margin-top:46px; margin-left:40px; font-size:14px; line-height:22px; color:#474747;}
+.sccg .sccg_dzjsm span{ color:#ff8800;}
